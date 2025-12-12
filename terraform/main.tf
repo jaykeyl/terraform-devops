@@ -8,7 +8,7 @@ data "aws_ami" "ubuntu" {
 }
 
 resource "aws_security_group" "web_sg" {
-  name        = "terraform-web-sg"
+  name        = "terraform-web-sg-tita"
   description = "Allow HTTP inbound"
 
   ingress {
