@@ -13,5 +13,5 @@ variable "instance_type" {
 variable "ami" {
   description = "AMI ID (si no quieres usar data lookup)"
   type        = string
-  default     = ""    # si lo dejas vacío usaremos lookup en main.tf
+  default     = ""
 }
